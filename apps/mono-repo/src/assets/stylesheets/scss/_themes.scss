@@ -1,0 +1,13 @@
+@import '~@angular/material/theming';
+
+$custom-typography: mat-typography-config(
+  $font-family: 'Nunito'
+);
+@include mat-core($custom-typography);
+
+// Keep atleast one file
+@import 'themes/zpc-indigo';
+
+$background: map-get($zpc-theme, background);
+$foreground: map-get($zpc-theme, foreground);
+
