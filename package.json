@@ -29,7 +29,8 @@
     "update:check": "ng update",
     "dep-graph": "nx dep-graph",
     "workspace-schematic": "nx workspace-schematic",
-    "help": "nx help"
+    "help": "nx help",
+    "start:mono-repo": "ng serve mono-repo --base-href=/mono-repo/ --open --source-map=true"
   },
   "private": true,
   "resolutions": {
@@ -63,6 +64,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.22",
+    "@angular-devkit/build-ng-packagr": "~0.803.22",
     "@angular/cli": "~8.3.22",
     "@angular/compiler-cli": "~8.2.14",
     "@angular/language-service": "~8.2.14",
