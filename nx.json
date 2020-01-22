@@ -13,6 +13,9 @@
     },
     "mono-repo-e2e": {
       "tags": []
+    },
+    "apps-api": {
+      "tags": []
     }
   }
 }
