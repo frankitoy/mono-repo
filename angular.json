@@ -12,7 +12,7 @@
       },
       "root": "apps/mono-repo",
       "sourceRoot": "apps/mono-repo/src",
-      "prefix": "app",
+      "prefix": "mr",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
