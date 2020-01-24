@@ -1,4 +1,4 @@
-import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import {
@@ -44,7 +44,6 @@ import {
     MatDialogModule,
     MatSlideToggleModule
   ],
-  declarations: [],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  declarations: []
 })
 export class MaterialModule { }
