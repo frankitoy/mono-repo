@@ -14,9 +14,9 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { MaterialModule } from './material/material.module';
 import { AppRoutingModule } from './app-routing.module';
+import { GraphQLModule } from './graphql.module';
 import { AppComponent } from './app.component';
 import { reducers, metaReducers } from './reducers';
-import { GraphQLModule } from './graphql.module';
 
 @NgModule({
   declarations: [

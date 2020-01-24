@@ -700,39 +700,6 @@ input:-webkit-autofill:active  {
   }
 }
 
-.crowd-zip-filter-option {
-  height: inherit !important;
-  padding: 16px !important;
-  .mat-option-text {
-    img {
-      width: 41px !important;
-      border-radius: 50%;
-      background-image: url("/assets/img/icons/ic-circle.svg");
-      background-size: 100%;
-      padding: 5px;
-    }
-  }
-  .img-wrap {
-    float: left;
-    line-height: 0;
-  }
-  .content-wrap {
-    float: left;
-    width: calc(76% - 6px);
-    margin-left: 10px;
-    padding-bottom: 0;
-    p {
-      padding: 0;
-      margin: 0;
-      line-height: 20px;
-    }
-
-    p:first-of-type {
-      margin-bottom: 3px;
-    }
-  }
-}
-
 .btn-purple-sm {
   background: #fff;
   border: 1px solid #762FE6;
@@ -1160,67 +1127,4 @@ input:-webkit-autofill:active  {
     }
   }
 }
-
-/** Toggle style **/
-/deep/.mat-slide-toggle {
-  height: .75rem;
-  line-height: .75rem;
-  font-size: .875rem;
-  vertical-align: bottom;
-  .mat-slide-toggle-bar {
-    width: 48px;
-    height: 22px;
-    border-radius: 30px;
-    border: 1px solid #ccc;
-    background: transparent !important;
-
-      .mat-slide-toggle-thumb-container {
-        width: 48px;
-        height: 22px;
-          top: 1px;
-          .mat-slide-toggle-thumb {
-            width: 20px;
-            height: 20px;
-            top: -1px;
-            position: relative;
-          }
-      }
-  }
-  .mat-slide-toggle-ripple {
-    left: calc(50% - 34px) !important;
-    top: calc(50% - 22px) !important;
-  }
-  &.mat-checked {
-    .mat-slide-toggle-thumb-container {
-      transform: translate3d(25px,0,0) !important;
-    }
-    .mat-slide-toggle-bar { 
-      background: #762FE6 !important;
-      border: 1px solid #762FE6;
-    }
-    .mat-slide-toggle-thumb {
-      background-color: #fff;
-    }
-    &:not(.mat-disabled) {
-        .mat-slide-toggle-bar {
-            background-color: #762FE6;
-        }
-        .mat-slide-toggle-thumb {
-            background-color: #fff !important;
-        }
-    } 
-  }
-  /*
-  &.mat-checked .mat-slide-toggle-thumb-container {
-      transform: translate3d(10px,0,0);
-  }
-  &.mat-checked:not(.mat-disabled) {
-      .mat-slide-toggle-bar {
-          background-color: #762FE6;
-      }
-      .mat-slide-toggle-thumb {
-          background-color: #fff;
-      }
-  }  */
-} 
 
