@@ -1,0 +1,79 @@
+// General
+$primary-theme-color: unquote('#604c8d');
+$transitionDuration: 300ms !default;
+$gutter: 1rem !default;
+$transitionTiming: cubic-bezier(.35,0,.25,1);
+$sidebarTrnTime: .3s;
+
+// Widths
+$sidebar-width: 15rem !default;
+$compact-sidebar-width: 48px !default;
+$compact-big-sidebar-width: 150px !default;
+
+// Typography
+$font-family-base: Nunito !default;
+$font-size-base: .875rem !default;
+$font-weight-base: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-bold: 600 !default;
+
+$font-size-h1: 2.5rem !default;
+$font-size-h2: 2rem !default;
+$font-size-h3: 1.75rem !default;
+$font-size-h4: 1.5rem !default;
+$font-size-h5: 1.25rem !default;
+$font-size-h6: 1rem !default;
+
+$headings-margin-bottom: (1rem / 2) !default;
+$headings-font-family:   inherit !default;
+$headings-font-weight:   400 !default;
+$headings-line-height:   1.1 !default;
+$headings-color:         inherit !default;
+
+/* Color palette */
+$blueberry-two:   unquote('#44316b');
+$blueberry:       unquote('#4a3770');
+$light-indigo:    unquote('#864bc9');
+$light-burgundy:  unquote('#923469');
+$brownish-orange: unquote('#d88827');
+$pistachio:       unquote('#1383ab');
+$cool-green:      unquote('#38b969');
+$green:           unquote('#36aa67');
+$sea:             unquote('#379988');
+$grape:           unquote('#401f4e');
+$white:           unquote('#ffffff');
+$dark-mint:       unquote('#59d491');
+$seafoam-blue:    unquote('#76d8c1');
+$c-event:         unquote('#a4421f');
+$green-link:      unquote('#74bd8a');
+
+$primary:         unquote('#604c8d');
+$primary-dark:    unquote('#4f3e73');
+$primary-darker:  unquote('#3a2d56');
+$primary-light:   unquote('#7d69ac');
+$primary-lighter: unquote('#E4E1EC');
+$primary-grey:    unquote('#767180');
+$success:         unquote('#1fc39b');
+$info:            unquote('#5774d5');
+$white:           unquote('#ffffff');
+$white-dark:      unquote('#fafcfe');
+$white-darker:    unquote('#f1f5f9');
+$dark:            unquote('#221c30');
+$dark-op1:        unquote('#221c301a'); // opacity : 0.1
+$dark-op6:        unquote('#221c3099'); // opacity : 0.1
+$dark-op06:       unquote('#221c300f'); // opacity : 0.06
+
+$grey: unquote('#8A8892');
+$lightgrey: unquote('#221c3066');
+
+// testi
+$t-gray:          unquote('#aaaaaa');
+$border-grey:     unquote('#dedede');
+$t-black:         unquote('#444444');
+$t-orange:        unquote('#ff5a16');
+
+//Font size
+$h1-title: 36px;
+$h1-card: 17px;
+$card-p: 14px;
+$paragraph: 18px;

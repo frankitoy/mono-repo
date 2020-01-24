@@ -1,4 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+// Main Variables File
+@import './assets/stylesheets/scss/variables';
+
+// Open _themes.scss and remove unnecessary theme files
+@import './assets/stylesheets/scss/themes';
+
+// Open _main.scss and keep files which are required for your current layout.
+@import './assets/stylesheets/scss/main';
+
+// Open _views.scss and remove unnecessary view related files
+@import './assets/stylesheets/scss/views';
+
