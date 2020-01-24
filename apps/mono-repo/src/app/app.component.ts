@@ -5,7 +5,7 @@ import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { Subject } from 'rxjs';
 import { filter } from 'rxjs/operators';
 
-import { ThemeService } from '@shared';
+import { RoutesPartsService, ThemeService } from '@shared';
 
 import { environment } from '../environments/environment';
 
@@ -22,13 +22,12 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
   pageTitle = '';
 
   constructor(
-
-    public title: Title,
-    private router: Router,
     private activeRoute: ActivatedRoute,
+    private router: Router,
     private renderer: Renderer2,
-    // private routePartsService: RoutePartsService,
+    private routePartsService: RoutesPartsService,
     private themeService: ThemeService,
+    private title: Title
   ) { }
 
   ngOnInit() {
@@ -50,8 +49,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
         filter(event => event instanceof NavigationEnd)
       )
       .subscribe(_ => {
-        const routeParts = [];
-        // const routeParts = this.routePartsService.generateRouteParts(this.activeRoute.snapshot);
+        const routeParts = this.routePartsService.generateRouteParts(this.activeRoute.snapshot);
         if (!routeParts.length) {
           return this.title.setTitle(this.appTitle);
         }
